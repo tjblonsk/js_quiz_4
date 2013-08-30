@@ -6,3 +6,15 @@
 //      |__|     |__|  |__| |__| |_______/       |__| |_______/       /__/     \__\     \_____\_____\\______/  |__|  /________(__)
 
 var QUIZ_TOPICS = ['javascript', 'jasmine', 'testing'];
+
+
+
+
+sort = function(array){
+ var a = array.sort(function(a,b){
+    return a-b;
+  });
+  return a;
+};
+
+
